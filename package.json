@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "start":"npm run lite",
+    "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server"
   },
@@ -23,5 +23,11 @@
   "homepage": "https://github.com/Sreyteavsry/React-Course#readme",
   "devDependencies": {
     "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.0",
+    "popper.js": "^1.12.9",
+    "save": "^2.4.0"
   }
 }

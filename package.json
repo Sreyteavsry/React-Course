@@ -26,7 +26,8 @@
   },
   "dependencies": {
     "bootstrap": "^4.0.0",
-    "jquery": "^3.3.0",
+    "bootstrap-social": "^5.1.1",
+    "jquery": "^3.4.1",
     "popper.js": "^1.12.9",
     "save": "^2.4.0"
   }

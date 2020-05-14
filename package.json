@@ -1,34 +1,36 @@
 {
-  "name": "github_test",
-  "version": "1.0.0",
-  "description": "\"This is a test directory to learn Git and Node\"",
-  "main": "test/index.html",
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "start": "npm run lite",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lite": "lite-server"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Sreyteavsry/React-Course.git"
-  },
-  "author": "Sreyteav Sry",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Sreyteavsry/React-Course/issues"
-  },
-  "homepage": "https://github.com/Sreyteavsry/React-Course#readme",
-  "devDependencies": {
-    "lite-server": "^2.5.4"
-  },
-  "dependencies": {
-    "bootstrap": "^4.0.0",
-    "bootstrap-social": "^5.1.1",
-    "jquery": "^3.4.1",
-    "popper.js": "^1.12.9",
-    "save": "^2.4.0"
-  }
+    "name": "github_test",
+    "version": "1.0.0",
+    "description": "\"This is a test directory to learn Git and Node\"",
+    "main": "test/index.html",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "start": "npm run lite",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lite": "lite-server",
+        "scss": "node-sass -o css/ css/ "
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Sreyteavsry/React-Course.git"
+    },
+    "author": "Sreyteav Sry",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Sreyteavsry/React-Course/issues"
+    },
+    "homepage": "https://github.com/Sreyteavsry/React-Course#readme",
+    "devDependencies": {
+        "lite-server": "^2.5.4",
+        "node-sass": "^4.7.2"
+    },
+    "dependencies": {
+        "bootstrap": "^4.0.0",
+        "bootstrap-social": "^5.1.1",
+        "jquery": "^3.4.1",
+        "popper.js": "^1.12.9",
+        "save": "^2.4.0"
+    }
 }
